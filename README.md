@@ -1,5 +1,5 @@
 ## Example: Predictive Analytics as a Service
-This example deploys a neural network model for sales forecasting as a microservice accessible via an API `POST` request. The model was built using Keras/Tensorflow. 
+This example deploys a neural network model for sales forecasting as a microservice accessible via an API `POST` request. The model was built using Keras/Tensorflow. The dataset is from [Kaggle] https://www.kaggle.com/c/rossmann-store-sales/download/train.csv.zip).
 
 The framework was inspired by this [blog post](https://blog.pivotal.io/data-science-pivotal/case-studies/data-science-how-to-text-analytics-as-a-service).
 
@@ -7,6 +7,10 @@ The model is deployed using Jupyter Kernel Gateway
 * Jupyter Notebook (via the [Jupyter Kernel Gateway](https://github.com/jupyter/kernel_gateway))
 
 The app is deployed on Cloud Foundry. This example deploys a trained model to forecast sales, but this framework can be modified for arbitrary predictive analytics and data science tasks.
+
+### Developing the model
+
+After cloning the repository first run the jupyter notebook in the model-development folder. This trains and exports the model into the model-deployment folder.
 
 ### Deploying to Cloud Foundry
 
