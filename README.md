@@ -1,5 +1,5 @@
 ## Example: Predictive Analytics as a Service
-This example deploys a neural network model for sales forecasting as a microservice accessible via an API `POST` request. The model was built using Keras/Tensorflow. The dataset is from [Kaggle] https://www.kaggle.com/c/rossmann-store-sales/download/train.csv.zip).
+This example deploys a neural network model for sales forecasting as a microservice accessible via an API `POST` request. The model was built using Keras/Tensorflow. The dataset is from [Kaggle](https://www.kaggle.com/c/rossmann-store-sales/download/train.csv.zip).
 
 The framework was inspired by this [blog post](https://blog.pivotal.io/data-science-pivotal/case-studies/data-science-how-to-text-analytics-as-a-service).
 
