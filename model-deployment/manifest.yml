@@ -1,0 +1,13 @@
+---
+applications:
+- name: neural-machines
+  memory: 2GB
+  disk_quota: 4GB
+  instances: 1
+  path: .
+  buildpack: https://github.com/cloudfoundry/python-buildpack.git
+  command: >
+    jupyter-kernelgateway --KernelGatewayApp.port=$PORT
+    --KernelGatewayApp.ip=0.0.0.0
+    --KernelGatewayApp.api=notebook-http
+    --KernelGatewayApp.seed_uri='analytics-service-pcf.ipynb'
