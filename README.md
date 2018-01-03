@@ -8,7 +8,7 @@ The model is deployed using Jupyter Kernel Gateway
 
 The app is deployed on Cloud Foundry. This example deploys a trained model to forecast sales, but this framework can be modified for arbitrary predictive analytics and data science tasks.
 
-### Developing the model
+### Model development
 
 After cloning the repository first run the jupyter notebook in the model-development folder. This trains and exports the model into the model-deployment folder.
 
@@ -25,7 +25,7 @@ Alternatively, you can install [PCF Dev](https://github.com/pivotal-cf/pcfdev) t
 ### Deploying the model
 #### Jupyter Notebook Microservice
 ```
-cd jupyter_gateway_deployment
+cd model-deployment
 cf push
 ```
 ### Using the neural network model via the API
