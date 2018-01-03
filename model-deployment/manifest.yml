@@ -10,4 +10,4 @@ applications:
     jupyter-kernelgateway --KernelGatewayApp.port=$PORT
     --KernelGatewayApp.ip=0.0.0.0
     --KernelGatewayApp.api=notebook-http
-    --KernelGatewayApp.seed_uri='analytics-service-pcf.ipynb'
+    --KernelGatewayApp.seed_uri='model-deployment.ipynb'
