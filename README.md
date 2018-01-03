@@ -53,6 +53,10 @@ neural-machines.cfapps.io/predict_timepoint
 * [Cloud Foundry Documentation](https://docs.cloudfoundry.org/)
 * Pivotal Blog: [Model scoring as a service](https://blog.pivotal.io/data-science-pivotal/products/scoring-as-a-service-to-operationalize-algorithms-for-real-time)
 
+### Issues to fix
+
+Results are not scaled back yet using scaler.pkl.
+
 ### Author
 
 `Balazs Feher`
